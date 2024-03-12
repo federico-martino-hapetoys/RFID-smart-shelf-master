@@ -1,0 +1,11 @@
+db.addUser(
+  {
+    user: "smart_shelf",
+    pwd: "testPWD",
+    roles: [
+      "userAdminAnyDatabase",
+      "dbAdminAnyDatabase",
+      "readWriteAnyDatabase"
+    ]
+  }
+)

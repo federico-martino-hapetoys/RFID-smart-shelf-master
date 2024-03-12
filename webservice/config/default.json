@@ -1,0 +1,6 @@
+{
+  "shopId": "Shop01",
+  "mongoDbUri": "mongodb://smart_shelf:testPWD@192.168.0.80:27117/smart_shelf",
+  "wsAddress": "192.168.0.80",
+  "wsPort": 4000
+}

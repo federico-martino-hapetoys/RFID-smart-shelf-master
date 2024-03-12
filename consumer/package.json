@@ -1,0 +1,19 @@
+{
+  "name": "smart-shelf-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "config": "^3.3.9",
+    "http": "0.0.1-security",
+    "mongoose": "^6.8.4",
+    "querystring": "^0.2.1"
+  }
+}

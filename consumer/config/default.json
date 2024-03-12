@@ -1,0 +1,13 @@
+{
+  "shopId": "Shop01",
+  "remoteApiUrl": "http://192.168.0.80:4000/smartShelfMsg",
+  "serialPorts": [
+    {
+      "id": "001",
+      "port": "/dev/ttyUSB0"
+    }
+  ],
+  "amqpUri": "amqp://smart_shelf:testPWD@192.168.0.80:32788",
+  "queueName": "local_smart_shelf",
+  "mongoDbUri": "mongodb://smart_shelf:testPWD@192.168.0.80:27017/local_smart_shelf"
+}

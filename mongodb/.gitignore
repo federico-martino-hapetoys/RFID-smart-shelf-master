@@ -1,0 +1,7 @@
+.vscode
+node_modules/
+dist/
+daemon/
+
+mongodb/local/
+mongodb/smartshelf/
