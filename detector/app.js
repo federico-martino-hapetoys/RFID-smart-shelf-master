@@ -6,14 +6,14 @@ const { log } = require('./common/logger')
 const DBConnection = require('./common/db/DBConnection')
 const HID = require('node-hid')
 HID.setDriverType('hidraw')
-// const hidDevices = HID.devices()
+const hidDevices = HID.devices()
 
 const conf = {
   mongoDbUri: config.get('mongoDbUri'),
   shopId: config.get('shopId'),
   serialPorts: config.get('serialPorts'),
   usbPorts: config.get('usbPorts'),
-  hidPorts: config.get('hidPorts')
+  hidPorts: hidDevices || config.get('hidPorts')
 }
 
 const monitoredPorts = []
