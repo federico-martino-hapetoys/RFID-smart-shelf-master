@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "lint": "npx eslint . --fix"
+  },
   "devDependencies": {
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
