@@ -1,0 +1,4 @@
+{
+     "extends": ["standard", "plugin:prettier/recommended"],
+     "plugins": ["standard", "promise", "import", "node", "prettier"]
+}

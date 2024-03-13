@@ -1,6 +1,6 @@
-const SmartShelfMsg = require('./db/models/SmartShelfMsg');
-const config = require('config');
-const shopId = config.get("shopId")
+const SmartShelfMsg = require('./db/models/SmartShelfMsg')
+const config = require('config')
+const shopId = config.get('shopId')
 
 module.exports = {
   save: async (portId, portPath, msg) => {

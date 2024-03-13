@@ -1,3 +1,3 @@
 module.exports = {
-	log: (...messages) => { console.log(messages) }
+  log: (...messages) => { console.log(messages) }
 }
