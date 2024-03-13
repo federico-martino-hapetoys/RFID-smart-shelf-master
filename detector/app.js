@@ -37,7 +37,7 @@ conf.serialPorts.forEach(sP => {
 })
 
 // For each configured serial ports, monitor messages
-conf.serialPorts.forEach(sP => {
+conf.usbPorts.forEach(sP => {
   log('USB Port detected: ', sP.id, sP.port)
 
   monitoredPorts.push({
